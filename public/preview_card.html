@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bluff Party — 1200x800 Showcase Preview</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      width: 1200px;
+      height: 800px;
+      overflow: hidden;
+      margin: 0;
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-sizing: border-box;
+      background: #090d16;
+      background-image: 
+        radial-gradient(circle at 10% 20%, rgba(99, 102, 241, 0.25) 0%, transparent 45%),
+        radial-gradient(circle at 90% 80%, rgba(236, 72, 153, 0.2) 0%, transparent 50%),
+        radial-gradient(circle at 50% 50%, rgba(6, 182, 212, 0.12) 0%, transparent 60%);
+    }
+
+    .banner-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .brand-large {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .brand-large .logo-badge {
+      width: 60px;
+      height: 60px;
+      font-size: 2.2rem;
+      border-radius: 18px;
+    }
+
+    .brand-large .title {
+      font-family: 'Outfit', sans-serif;
+      font-size: 2.4rem;
+      font-weight: 900;
+      letter-spacing: -0.03em;
+      background: linear-gradient(120deg, #ffffff, #c7d2fe);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .banner-content {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 36px;
+      align-items: center;
+      margin: auto 0;
+    }
+
+    .showcase-card {
+      background: rgba(22, 28, 45, 0.85);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: 24px;
+      padding: 30px;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+      position: relative;
+    }
+
+    .question-box-preview {
+      background: rgba(15, 23, 42, 0.9);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 16px;
+      padding: 20px 24px;
+      margin-bottom: 20px;
+    }
+
+    .preview-options-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    .preview-option {
+      background: rgba(15, 23, 42, 0.8);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      padding: 14px 16px;
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: #fff;
+    }
+    .preview-option.highlight {
+      border-color: #06b6d4;
+      background: rgba(6, 182, 212, 0.15);
+      box-shadow: 0 0 15px rgba(6, 182, 212, 0.3);
+    }
+
+    .right-sidebar {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+
+    .lobby-badge-card {
+      background: rgba(15, 23, 42, 0.85);
+      border: 2px dashed rgba(99, 102, 241, 0.6);
+      border-radius: 20px;
+      padding: 24px;
+      text-align: center;
+    }
+
+    .features-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .feature-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #cbd5e1;
+    }
+
+    .feature-icon {
+      font-size: 1.3rem;
+    }
+
+    .banner-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      padding-top: 18px;
+      color: #94a3b8;
+      font-size: 0.95rem;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Header -->
+  <div class="banner-header">
+    <div class="brand-large">
+      <div class="logo-badge">🎭</div>
+      <div>
+        <div class="title">Bluff Party</div>
+        <div style="font-size: 0.95rem; color: #ec4899; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase;">
+          Real-Time Multiplayer Party Game
+        </div>
+      </div>
+    </div>
+    <div style="display: flex; gap: 10px;">
+      <span class="round-pill" style="font-size: 0.95rem; padding: 8px 18px; background: rgba(99, 102, 241, 0.25);">
+        ✨ Handshake AI Skills Studio
+      </span>
+      <span class="category-pill" style="font-size: 0.95rem; padding: 8px 18px;">
+        👥 2–8 Players • Cross-Device
+      </span>
+    </div>
+  </div>
+
+  <!-- Content Grid -->
+  <div class="banner-content">
+    <!-- Game Mockup Card -->
+    <div class="showcase-card">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+        <span class="round-pill">Round 2 / 3</span>
+        <span class="category-pill">Bizarre Laws</span>
+        <div class="timer-circle" style="width: 38px; height: 38px; font-size: 1rem;">24s</div>
+      </div>
+
+      <div class="question-box-preview">
+        <p style="font-family: 'Outfit'; font-size: 1.25rem; font-weight: 700; line-height: 1.4; color: #f8fafc;">
+          In Switzerland, it is strictly illegal to own just one <span class="blank-highlight">___________</span> because they get lonely!
+        </p>
+      </div>
+
+      <div style="font-size: 0.85rem; font-weight: 700; color: #06b6d4; text-transform: uppercase; margin-bottom: 10px;">
+        🎯 Spot the Truth Among Player Bluffs:
+      </div>
+
+      <div class="preview-options-grid">
+        <div class="preview-option">🐹 Guinea Pig <span style="font-size: 0.75rem; color: #10b981; float: right;">TRUTH</span></div>
+        <div class="preview-option highlight">🐠 Goldfish <span style="font-size: 0.75rem; color: #ec4899; float: right;">Bluff</span></div>
+        <div class="preview-option">🦜 Parrot <span style="font-size: 0.75rem; color: #ec4899; float: right;">Bluff</span></div>
+        <div class="preview-option">🐹 Hamster <span style="font-size: 0.75rem; color: #64748b; float: right;">House</span></div>
+      </div>
+    </div>
+
+    <!-- Right Sidebar -->
+    <div class="right-sidebar">
+      <div class="lobby-badge-card">
+        <span style="font-size: 0.85rem; font-weight: 800; color: #a5b4fc; text-transform: uppercase;">Instant Join via Room Code</span>
+        <div style="font-family: 'Outfit'; font-size: 3rem; font-weight: 900; letter-spacing: 0.15em; color: #ffffff; text-shadow: 0 0 25px rgba(99, 102, 241, 0.8); margin: 6px 0;">
+          WBNQ
+        </div>
+        <div style="font-size: 0.9rem; color: #94a3b8;">No apps or accounts required</div>
+      </div>
+
+      <div class="features-list">
+        <div class="feature-item">
+          <span class="feature-icon">📱</span>
+          <span>Scan QR or room code from any smartphone</span>
+        </div>
+        <div class="feature-item">
+          <span class="feature-icon">🤖</span>
+          <span>Intelligent AI Bots for instant solo testing</span>
+        </div>
+        <div class="feature-item">
+          <span class="feature-icon">🔊</span>
+          <span>Synthesized in-browser sound effects & music</span>
+        </div>
+        <div class="feature-item">
+          <span class="feature-icon">🏆</span>
+          <span>Jackbox-style reveals, streaks & final podium</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom Footer -->
+  <div class="banner-footer">
+    <div>⚡ Node.js • Socket.io • Web Audio API • Vanilla CSS Glassmorphism</div>
+    <div>Built with Handshake AI Skills Studio & OpenAI</div>
+  </div>
+
+</body>
+</html>
