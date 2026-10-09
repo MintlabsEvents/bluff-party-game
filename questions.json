@@ -1,0 +1,177 @@
+[
+  {
+    "id": 1,
+    "category": "History",
+    "prompt": "In the 16th century, wealthy Europeans believed that drinking powdered ________ could cure serious illnesses.",
+    "answer": "Egyptian mummies",
+    "houseBluffs": ["solid gold coins", "unicorn horns", "crushed pearls", "meteorite dust"]
+  },
+  {
+    "id": 2,
+    "category": "Nature",
+    "prompt": "Wombats are the only known animals on Earth that produce poop shaped like ________.",
+    "answer": "cubes",
+    "houseBluffs": ["pyramids", "hexagons", "donuts", "perfect spheres"]
+  },
+  {
+    "id": 3,
+    "category": "Bizarre Laws",
+    "prompt": "In Switzerland, it is illegal under animal rights laws to own just one ________ because they get lonely.",
+    "answer": "guinea pig",
+    "houseBluffs": ["goldfish", "parrot", "hamster", "canary"]
+  },
+  {
+    "id": 4,
+    "category": "Pop Culture",
+    "prompt": "The original working title for the hit TV show 'Friends' was '________'.",
+    "answer": "Insomnia Cafe",
+    "houseBluffs": ["Six in the City", "Across the Hall", "Coffee Talk", "New York Singles"]
+  },
+  {
+    "id": 5,
+    "category": "Science",
+    "prompt": "Bananas are naturally radioactive because they contain high amounts of ________.",
+    "answer": "potassium-40",
+    "houseBluffs": ["uranium dust", "radium traces", "heavy hydrogen", "cosmic isotopes"]
+  },
+  {
+    "id": 6,
+    "category": "Food",
+    "prompt": "Before tomato sauce became standard, ketchup was originally made from fermented ________.",
+    "answer": "fish guts",
+    "houseBluffs": ["walnuts", "mushrooms", "seaweed", "sour plums"]
+  },
+  {
+    "id": 7,
+    "category": "Space",
+    "prompt": "Because of extreme atmospheric pressure, it literally rains ________ on Neptune and Uranus.",
+    "answer": "diamonds",
+    "houseBluffs": ["liquid iron", "glass shards", "liquid gold", "sulfur needles"]
+  },
+  {
+    "id": 8,
+    "category": "World",
+    "prompt": "In 1859, the US and the British Empire almost went to war over a dispute involving a ________.",
+    "answer": "pig",
+    "houseBluffs": ["barrel of whiskey", "fishing net", "stolen cow", "lighthouse lantern"]
+  },
+  {
+    "id": 9,
+    "category": "Inventions",
+    "prompt": "The inventor of the Pringles can was so proud of his creation that he was ________ in one.",
+    "answer": "buried",
+    "houseBluffs": ["married", "baptized", "painted", "photographed naked"]
+  },
+  {
+    "id": 10,
+    "category": "Animals",
+    "prompt": "A group of flamingos is officially called a '________'.",
+    "answer": "flamboyance",
+    "houseBluffs": ["parade", "carnival", "blush", "dazzle"]
+  },
+  {
+    "id": 11,
+    "category": "Ancient History",
+    "prompt": "Ancient Romans used ________ as mouthwash because the ammonia was believed to whiten teeth.",
+    "answer": "human urine",
+    "houseBluffs": ["vinegar and chalk", "goat milk", "boiled garlic wine", "crushed snail shells"]
+  },
+  {
+    "id": 12,
+    "category": "Technology",
+    "prompt": "The very first computer mouse invented in 1964 by Doug Engelbart was carved out of ________.",
+    "answer": "wood",
+    "houseBluffs": ["clay", "aluminum", "bakelite", "carved bone"]
+  },
+  {
+    "id": 13,
+    "category": "Biology",
+    "prompt": "Sea otters have a specialized pouch under their arm where they keep their favorite ________.",
+    "answer": "rock",
+    "houseBluffs": ["clam shell", "sea urchin", "piece of kelp", "crab claw"]
+  },
+  {
+    "id": 14,
+    "category": "Sports",
+    "prompt": "Until 1912, Olympic champions could win gold medals in ________.",
+    "answer": "painting and architecture",
+    "houseBluffs": ["tug of war on horseback", "pigeon racing", "billiards", "underwater singing"]
+  },
+  {
+    "id": 15,
+    "category": "Royalty",
+    "prompt": "King Charles III of the UK has a car that runs entirely on surplus English ________.",
+    "answer": "wine and cheese whey",
+    "houseBluffs": ["biodiesel from fish chips", "apple cider waste", "beer dregs", "used royal cooking oil"]
+  },
+  {
+    "id": 16,
+    "category": "Nature",
+    "prompt": "Cows produce up to 3% more milk when farmers play ________ music in the barn.",
+    "answer": "slow country or classical",
+    "houseBluffs": ["heavy metal", "whale songs", "jazz saxophone", "reggae"]
+  },
+  {
+    "id": 17,
+    "category": "Geography",
+    "prompt": "Canada has an official landing pad specifically built for ________.",
+    "answer": "UFOs",
+    "houseBluffs": ["Santa Claus", "flying squirrels", "hot air balloons", "reindeer"]
+  },
+  {
+    "id": 18,
+    "category": "Medicine",
+    "prompt": "In the 19th century, doctors prescribed ________ as medicine for asthma and coughs.",
+    "answer": "chloroform and heroin",
+    "houseBluffs": ["powdered wasp nests", "tobacco smoke enemas", "electrified sponge baths", "warm vinegar steam"]
+  },
+  {
+    "id": 19,
+    "category": "Food",
+    "prompt": "Cotton candy was co-invented in 1897 by a ________.",
+    "answer": "dentist",
+    "houseBluffs": ["circus clown", "textile engineer", "glassblower", "firefighter"]
+  },
+  {
+    "id": 20,
+    "category": "Bizarre",
+    "prompt": "In 2013, an Australian man tried to pay for a pizza using a ________.",
+    "answer": "pet snake",
+    "houseBluffs": ["kangaroo selfie", "gold tooth", "signed Russell Crowe photo", "boomerang"]
+  },
+  {
+    "id": 21,
+    "category": "Animals",
+    "prompt": "Sloths can hold their breath underwater for up to 40 minutes, which is longer than a ________.",
+    "answer": "dolphin",
+    "houseBluffs": ["beaver", "sea turtle", "alligator", "hippo"]
+  },
+  {
+    "id": 22,
+    "category": "Culture",
+    "prompt": "In Victorian England, men with mustaches drank from special teacups designed with built-in ________.",
+    "answer": "mustache guards",
+    "houseBluffs": ["wax warmers", "steam vents", "straw clips", "foam strainers"]
+  },
+  {
+    "id": 23,
+    "category": "Science",
+    "prompt": "A day on Venus is longer than a ________ on Venus.",
+    "answer": "year",
+    "houseBluffs": ["solar flare", "lunar eclipse", "volcanic cycle", "generation"]
+  },
+  {
+    "id": 24,
+    "category": "Inventions",
+    "prompt": "Play-Doh was originally created in the 1930s to clean soot off ________.",
+    "answer": "wallpaper",
+    "houseBluffs": ["chalkboards", "typewriters", "chimneys", "bowling balls"]
+  },
+  {
+    "id": 25,
+    "category": "History",
+    "prompt": "During World War II, the British government fooled enemy spies by claiming carrots gave pilots ________.",
+    "answer": "night vision",
+    "houseBluffs": ["bulletproof reflex speed", "telepathic focus", "frostbite immunity", "invisibility at dusk"]
+  }
+]
