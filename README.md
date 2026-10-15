@@ -2,6 +2,8 @@
 
 Built for the **Handshake AI Skills Studio** mission: *"Create a Multiplayer Game"*.
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/MintlabsEvents/bluff-party-game)
+
 **Bluff Party** is an interactive, browser-based multiplayer party game (inspired by Fibbage & Jackbox). Players connect from separate phones, tablets, or computers using a simple 4-letter Room Code or QR Code — no app downloads or logins required.
 
 ---
