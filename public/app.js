@@ -235,7 +235,7 @@
     });
 
     // Copy Join Link
-    document.getElementById('btn-copy-link')?.addEventListener('click', () => {
+    const copyJoinLink = () => {
       if (window.soundEngine) window.soundEngine.click();
       const link = `${window.location.origin}?room=${currentRoomCode}`;
       navigator.clipboard
@@ -246,7 +246,9 @@
         .catch(() => {
           showToast(`Share Code: ${currentRoomCode}`);
         });
-    });
+    };
+    document.getElementById('btn-copy-link')?.addEventListener('click', copyJoinLink);
+    document.getElementById('lobby-room-code')?.addEventListener('click', copyJoinLink);
 
     // Add Bot Player
     document.getElementById('btn-add-bot')?.addEventListener('click', () => {
@@ -344,7 +346,8 @@
     const codeDisplay = document.getElementById('lobby-room-code');
     if (codeDisplay) codeDisplay.textContent = roomCode;
 
-    fetch(`/api/info?room=${roomCode}`)
+    const origin = encodeURIComponent(window.location.origin);
+    fetch(`/api/info?room=${roomCode}&origin=${origin}`)
       .then((res) => res.json())
       .then((data) => {
         if (qrBox && data.qrCode) {

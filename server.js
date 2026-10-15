@@ -46,7 +46,10 @@ app.use(express.json());
 // API Info endpoint
 app.get('/api/info', async (req, res) => {
   const room = req.query.room || '';
-  const joinUrl = `http://${LOCAL_IP}:${PORT}${room ? `?room=${room}` : ''}`;
+  const proto = req.headers['x-forwarded-proto'] || req.protocol || 'http';
+  const host = req.headers['x-forwarded-host'] || req.headers.host || `${LOCAL_IP}:${PORT}`;
+  const origin = req.query.origin || `${proto}://${host}`;
+  const joinUrl = `${origin}${room ? `?room=${room}` : ''}`;
   let qrCodeData = '';
   try {
     qrCodeData = await QRCode.toDataURL(joinUrl, {
